@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(pip install *)",
+      "Bash(python -m pip install *)",
+      "Bash(npm run dev)",
+      "Bash(npm run build)",
+      "Bash(npx vitest *)",
+      "Bash(python -m pytest *)",
+      "Bash(python -m uvicorn *)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(rm -f .claude/check-results/*.json)",
+      "Bash(mkdir -p *)",
+      "Read(//e/Claude_Project_third/Enterprise Employee Self-Service Intelligent Knowledge Base/**)",
+      "Write(//e/Claude_Project_third/Enterprise Employee Self-Service Intelligent Knowledge Base/**)",
+      "Edit(//e/Claude_Project_third/Enterprise Employee Self-Service Intelligent Knowledge Base/**)",
+      "Glob(//e/Claude_Project_third/Enterprise Employee Self-Service Intelligent Knowledge Base/**)",
+      "Grep(//e/Claude_Project_third/Enterprise Employee Self-Service Intelligent Knowledge Base/**)"
+    ],
+    "additionalDirectories": [
+      "e:\\Claude_Project_third\\Enterprise Employee Self-Service Intelligent Knowledge Base\\frontend\\src",
+      "e:\\Claude_Project_third\\Enterprise Employee Self-Service Intelligent Knowledge Base\\backend\\app"
+    ]
+  }
+}

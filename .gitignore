@@ -1,0 +1,69 @@
+# 环境变量（包含 API Key 和密码）
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# 数据库文件
+*.db
+*.db-shm
+*.db-wal
+
+# ChromaDB 向量数据
+chroma_data/
+
+# 缓存
+cache/
+*.pkl
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+.trae/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+logs/
+
+# 上传文件（开发环境）
+backend/uploads/
+
+# 运行时用户上传的头像
+backend/static/avatars/
+backend/app/static/avatars/
+
+# Claude Code 检查结果
+.claude/check-results/*.json
+
+# Electron 构建产物（源项目遗留）
+release/
+
+# 索引备份文件
+*.pkl.bak_*
+
+# 毕设/毕业论文文档（本地保留，不入库）
+毕业论文_*.md
+重构方案与可行性分析.md
+企业内部制度智能问答知识库系统 PRD.md

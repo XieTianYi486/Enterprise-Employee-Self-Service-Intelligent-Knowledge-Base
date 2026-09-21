@@ -1,0 +1,750 @@
+{
+  "benchmark": "E:\\Claude_Project_first\\Enterprise Employee Self-Service Intelligent Knowledge Base\\backend\\evaluation\\qa_benchmark.json",
+  "results": {
+    "retrieval": {
+      "metrics": {
+        "total": 122,
+        "skipped_unresolved": 6,
+        "hit@1": 0.7049180327868853,
+        "hit@3": 0.9426229508196722,
+        "hit@5": 0.9590163934426229,
+        "hit@10": 0.9754098360655737
+      },
+      "details": [
+        {
+          "id": 1,
+          "question": "公司的工作时间是怎么安排的？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 2,
+          "question": "上班打卡时间是什么时候？错过了怎么办？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 3,
+          "question": "迟到30分钟以上会怎么样？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 4,
+          "question": "连续旷工几天会被解除劳动合同？",
+          "hit_rank": null,
+          "golden_count": 1
+        },
+        {
+          "id": 5,
+          "question": "忘记打卡了怎么补？一个月能补几次？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 6,
+          "question": "年假有几天？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 7,
+          "question": "今年的年假休不完可以延期吗？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 8,
+          "question": "请一天病假需要什么证明？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 9,
+          "question": "病假期间工资怎么发？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 10,
+          "question": "事假要提前多久申请？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 11,
+          "question": "婚假有几天？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 12,
+          "question": "产假多少天？难产能多休吗？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 13,
+          "question": "男员工有陪产假吗？几天？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 14,
+          "question": "哺乳期每天有多少哺乳时间？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 15,
+          "question": "直系亲属去世丧假几天？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 16,
+          "question": "育儿假每年有几天？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 17,
+          "question": "工伤停工留薪期多久？工资怎么算？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 18,
+          "question": "周末加班可以调休吗？多久内要用掉？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 19,
+          "question": "工作日加班有加班费吗？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 20,
+          "question": "每月加班时间有限制吗？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 21,
+          "question": "全勤奖是多少钱？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 22,
+          "question": "出差回来多久内要交出差报告？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 23,
+          "question": "事假一个月最多请几天？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 24,
+          "question": "离职时年假没休完怎么办？",
+          "hit_rank": 3,
+          "golden_count": 1
+        },
+        {
+          "id": 25,
+          "question": "试用期想辞职要提前几天说？",
+          "hit_rank": 3,
+          "golden_count": 1
+        },
+        {
+          "id": 26,
+          "question": "工资由哪些部分组成？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 27,
+          "question": "每月几号发工资？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 28,
+          "question": "补充商业保险的保障额度是多少？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 29,
+          "question": "社保公积金基数什么时候调整？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 30,
+          "question": "通讯补贴每个月多少钱？",
+          "hit_rank": 3,
+          "golden_count": 1
+        },
+        {
+          "id": 31,
+          "question": "每年有多少培训经费？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 32,
+          "question": "一年有几次晋升机会？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 33,
+          "question": "在职读研学费能报销吗？",
+          "hit_rank": null,
+          "golden_count": 1
+        },
+        {
+          "id": 34,
+          "question": "正式员工辞职要提前多久？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 35,
+          "question": "竞业限制的补偿金怎么算？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 36,
+          "question": "申请专利公司有奖励吗？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 37,
+          "question": "普通员工出差需要谁审批？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 38,
+          "question": "出差可以借多少备用金？",
+          "hit_rank": 4,
+          "golden_count": 1
+        },
+        {
+          "id": 39,
+          "question": "去上海出差住宿一晚能报多少？",
+          "hit_rank": null,
+          "golden_count": 1
+        },
+        {
+          "id": 40,
+          "question": "出差每天有多少伙食补助？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 41,
+          "question": "出差市内打车每天最多报多少？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 42,
+          "question": "出差期间宴请客户有什么标准？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 43,
+          "question": "出国出差能带多少外币现金？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 44,
+          "question": "出差回来多久内要报销？",
+          "hit_rank": 3,
+          "golden_count": 1
+        },
+        {
+          "id": 45,
+          "question": "差旅报销款多久能到账？",
+          "hit_rank": 10,
+          "golden_count": 1
+        },
+        {
+          "id": 46,
+          "question": "虚报差旅费会怎么处理？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 47,
+          "question": "怀孕女员工出差的住宿标准有照顾吗？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 48,
+          "question": "机票可以自己随便订吗？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 49,
+          "question": "公司账号密码有什么要求？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 50,
+          "question": "密码多久需要改一次？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 51,
+          "question": "登录财务系统需要双因素认证吗？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 52,
+          "question": "公司电脑丢了要多久内报告？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 53,
+          "question": "核心系统被入侵多久要启动应急响应？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 54,
+          "question": "个人信息泄露要向监管部门报告吗？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 55,
+          "question": "保密义务离职后还有效吗？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 56,
+          "question": "用个人邮箱发工作文件会怎么处罚？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 57,
+          "question": "核心系统的操作日志保留多久？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 58,
+          "question": "收到疑似钓鱼邮件怎么办？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 59,
+          "question": "核心业务数据多久备份一次？保留多久？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 60,
+          "question": "笔记本电脑几年换一次？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 61,
+          "question": "个人工作目录的存储配额是多少？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 62,
+          "question": "电脑磁盘空间要留多少？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 63,
+          "question": "电脑坏了报修多久有人响应？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 64,
+          "question": "临时借投影仪能借多久？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 65,
+          "question": "账号多久不用会被锁定？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 66,
+          "question": "开发工程师配什么配置的电脑？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 67,
+          "question": "硬盘坏了要修，数据安全怎么保障？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 68,
+          "question": "公司库存现金限额是多少？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 69,
+          "question": "费用发生后多久内要报销？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 70,
+          "question": "招待客户餐费的标准是多少？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 71,
+          "question": "开私家车办公事怎么报销？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 72,
+          "question": "公司电脑按几年计提折旧？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 73,
+          "question": "企业所得税汇算清缴什么时候完成？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 74,
+          "question": "研发费用加计扣除比例是多少？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 75,
+          "question": "入职多久要签劳动合同？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 76,
+          "question": "公司超过一个月不签合同怎么办？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 77,
+          "question": "第一次签合同一般签几年？",
+          "hit_rank": 3,
+          "golden_count": 1
+        },
+        {
+          "id": 78,
+          "question": "签三年合同试用期最长多久？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 79,
+          "question": "什么条件能签无固定期限合同？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 80,
+          "question": "合同到期前多久会开始续签评估？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 81,
+          "question": "正式员工辞职要提前多久通知？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 82,
+          "question": "公司解除合同后多久办社保转移？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 83,
+          "question": "经济补偿金怎么算？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 84,
+          "question": "劳动仲裁要在多久内提出？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 85,
+          "question": "年度考核什么时候进行？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 86,
+          "question": "考核S级要多少分？比例有限制吗？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 87,
+          "question": "连续两次考核C会怎样？",
+          "hit_rank": 3,
+          "golden_count": 1
+        },
+        {
+          "id": 88,
+          "question": "考核S级绩效系数是多少？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 89,
+          "question": "什么条件才能申请晋升？",
+          "hit_rank": 3,
+          "golden_count": 1
+        },
+        {
+          "id": 90,
+          "question": "晋升评审要多少票才能通过？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 91,
+          "question": "晋升后工资能涨多少？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 92,
+          "question": "季度之星奖励多少钱？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 93,
+          "question": "总裁特别奖是多少钱？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 94,
+          "question": "对考核结果不满意怎么申诉？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 95,
+          "question": "多少钱的采购需要比价？",
+          "hit_rank": 3,
+          "golden_count": 1
+        },
+        {
+          "id": 96,
+          "question": "多少钱的项目必须公开招标？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 97,
+          "question": "中标结果公示几天？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 98,
+          "question": "供应商年度评估什么时候做？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 99,
+          "question": "供应商评估按什么标准打分？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 100,
+          "question": "多少分的供应商会被终止合作？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 101,
+          "question": "多少钱的采购必须签书面合同？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 102,
+          "question": "采购预付款最多能付多少？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 103,
+          "question": "采购合同一般留多少质保金？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 104,
+          "question": "设备验收要多久完成？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 105,
+          "question": "办市场活动要提前多久申请？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 106,
+          "question": "客户报紧急故障多久要响应？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 107,
+          "question": "客户投诉多久要给出处理方案？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 108,
+          "question": "合同金额多大的客户算重大客户？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 109,
+          "question": "商务往来收礼品有什么限制？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 110,
+          "question": "合同原件要保存多久？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 111,
+          "question": "每月几号发工资？",
+          "hit_rank": 4,
+          "golden_count": 1
+        },
+        {
+          "id": 112,
+          "question": "年终奖什么时候发？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 113,
+          "question": "晋升后工资能涨多少？",
+          "hit_rank": 3,
+          "golden_count": 1
+        },
+        {
+          "id": 114,
+          "question": "离职后最后一个月的工资什么时候发？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 115,
+          "question": "周末加班工资怎么算？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 116,
+          "question": "病假期间工资发多少？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 117,
+          "question": "每月餐补多少钱？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 118,
+          "question": "买房可以申请公司借款吗？",
+          "hit_rank": 2,
+          "golden_count": 1
+        },
+        {
+          "id": 119,
+          "question": "总监子女读大学有教育补贴吗？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 120,
+          "question": "高温补贴是哪几个月发放？",
+          "hit_rank": 1,
+          "golden_count": 1
+        },
+        {
+          "id": 122,
+          "question": "公司有哪些福利？",
+          "hit_rank": 7,
+          "golden_count": 1
+        },
+        {
+          "id": 125,
+          "question": "信息安全事件怎么报告？",
+          "hit_rank": 1,
+          "golden_count": 1
+        }
+      ]
+    }
+  },
+  "timestamp": "2026-09-19 21:18:53"
+}

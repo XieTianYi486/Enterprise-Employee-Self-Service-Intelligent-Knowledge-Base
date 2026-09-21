@@ -1,0 +1,155 @@
+{
+  "benchmark": "E:\\Claude_Project_first\\Enterprise Employee Self-Service Intelligent Knowledge Base\\backend\\evaluation\\qa_benchmark.json",
+  "results": {
+    "answer": {
+      "metrics": {
+        "answerable_total": 15,
+        "skipped_unresolved": 0,
+        "refusal_total": 0,
+        "answer_accuracy": 0.2,
+        "refusal_accuracy": 0.0,
+        "hallucination_rate": 0.0,
+        "incomplete_rate": 0.8,
+        "avg_total_ms": 7899.866666666667
+      },
+      "details": [
+        {
+          "id": 1,
+          "question": "公司的工作时间是怎么安排的？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": false,
+          "total_ms": 13263
+        },
+        {
+          "id": 2,
+          "question": "上班打卡时间是什么时候？错过了怎么办？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": false,
+          "total_ms": 10308
+        },
+        {
+          "id": 3,
+          "question": "迟到30分钟以上会怎么样？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": false,
+          "total_ms": 9481
+        },
+        {
+          "id": 4,
+          "question": "连续旷工几天会被解除劳动合同？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": false,
+          "total_ms": 5409
+        },
+        {
+          "id": 5,
+          "question": "忘记打卡了怎么补？一个月能补几次？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": false,
+          "total_ms": 5581
+        },
+        {
+          "id": 6,
+          "question": "年假有几天？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": false,
+          "total_ms": 8069
+        },
+        {
+          "id": 7,
+          "question": "今年的年假休不完可以延期吗？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": false,
+          "total_ms": 6162
+        },
+        {
+          "id": 8,
+          "question": "请一天病假需要什么证明？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": false,
+          "total_ms": 5698
+        },
+        {
+          "id": 9,
+          "question": "病假期间工资怎么发？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": false,
+          "total_ms": 12230
+        },
+        {
+          "id": 10,
+          "question": "事假要提前多久申请？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": false,
+          "total_ms": 5628
+        },
+        {
+          "id": 11,
+          "question": "婚假有几天？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": false,
+          "total_ms": 6880
+        },
+        {
+          "id": 12,
+          "question": "产假多少天？难产能多休吗？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": false,
+          "total_ms": 8229
+        },
+        {
+          "id": 13,
+          "question": "男员工有陪产假吗？几天？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": true,
+          "total_ms": 6706
+        },
+        {
+          "id": 14,
+          "question": "哺乳期每天有多少哺乳时间？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": true,
+          "total_ms": 5251
+        },
+        {
+          "id": 15,
+          "question": "直系亲属去世丧假几天？",
+          "should_refuse": false,
+          "is_refusal": false,
+          "has_sources": true,
+          "keywords_ok": true,
+          "total_ms": 9603
+        }
+      ]
+    }
+  },
+  "timestamp": "2026-09-03 22:22:15"
+}

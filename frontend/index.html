@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>企业员工自助服务系统</title>
+    <script>
+      (function() {
+        if (localStorage.getItem('app_theme') !== 'dark') {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+    <style>
+      html, body, #app { background: #0F172A; margin: 0; padding: 0; }
+      html:not(.dark), html:not(.dark) body, html:not(.dark) #app { background: #F1F5F9; }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
